@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    background-color: #003C5F#3b98c0;
+    color: black;
+}
+@font-face {
+    font-family: DynaPuff;
+    src: url(/assets/fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: space-between;
+    background-color: #3b98c0;
+    font-family: DynaPuff;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    border-style: double;   
+    background-color: #003C5F;
+    color: black;
+}
+ul{
+    color: black;
+}
+.bod{
+    color: black;
+}
+.logo{
+    display: flex;
+    border-style: double;
+    width: 90px;
+    height: 70px;
+    background-color: #003C5F;       
+}
+
+.titleG{
+    text-align: center;
+    padding: 30px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #003C5F;
+    color: black;
+    
+}
+.links{
+    display: inline;
+    margin: 10px;
+    border-bottom: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: double;
+    font-family:DynaPuff;   
+    background-color: #003C5F;    
+    border-color: black;
+    color: aliceblue;
+    }
+
+
+.carousel-inner{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    border-style: solid;
+    border-radius:  20px;
+    background-color: #669bbc;
+    padding-left: 45%;
+
+}
+
+.tarjetsCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #669bbc;
+    margin-top: 20px;
+}
+
+
+.card{
+    background-color: #166CFA;
+}
+
+.carruselxd{
+    display: flex;
+
+}
+#bloquecarrusel{
+    display: flex;
+}
+
+.carousel-item-active:hover{
+    size-adjust: 1.5;
+}
+
+
+
+
+footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #003C5F;
+    padding: 10px;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: DynaPuff;
+    margin-top: 5%;
+    color: black;
+}
+
+.foot{
+    padding: 10px;
+    color: black;
+}
